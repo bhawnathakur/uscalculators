@@ -1,0 +1,83 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Coin Calculator</title>
+<link href="./css/bootstrap.min.css" rel="stylesheet" >
+<link rel="stylesheet" href="./css/style.css">
+<script src="./js/bootstrap.bundle.min.js" ></script>
+
+<script src="js/jquery.js"></script>
+<script src="js/autoNumeric.js"></script>
+
+<script type="text/javascript" >
+$(document).ready(function() {
+	$('.auto').autoNumeric('init');
+})
+
+
+</script>
+<style>
+  .num{
+    max-width: 100px;
+  }
+</style>
+</head>
+
+<body>
+<div id="wrapper">
+  <div class="container">
+    <div class="row bg-primary text-white mb-2">
+      <div class="col text-center p-3  ">
+        <h4>Body Fat Estimate<br>
+          (US Navy formula)
+          Calculator</h4>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-4 pl-3">
+        System
+      </div>
+      <div class="col-md-6">
+        <label class="radio-inline">
+          <input type="radio" name="system" value="us" checked >US
+        </label>
+        <label class="radio-inline " style="margin-left:20px">
+          <input type="radio" value="metric" name="system">Metric
+        </label>
+        
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-4">
+        Gender
+      </div>
+      <div class="col-md-6">
+        <label class="radio-inline">
+          <input type="radio" name="gender" value="male" checked >Male
+        </label>
+        <label class="radio-inline " style="margin-left:20px">
+          <input type="radio" value="female" name="gender">Female
+        </label>
+        
+      </div>
+    </div>
+  </div>
+        
+        
+   
+ </div>
+
+
+  
+  
+
+    <script >
+      function cal(){
+      }
+    </script>
+    </body>
+</html>

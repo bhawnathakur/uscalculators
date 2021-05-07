@@ -1,0 +1,21 @@
+#wrapper{
+    
+    border:1px  darkgrey solid ;
+  max-width:600px;
+    padding: 2rem;
+    margin: 2rem;
+}
+#top_heading{
+    font-size: 1.5rem;
+    font-weight: 500;
+    color:#dc143c ;
+}
+body {
+    font-family: -apple-system, BlinkMacSystemFont, "myriad-pro", sans-serif;
+    font-weight: 400;
+  }
+  .row{
+    padding:.1rem
+  }
+  
+  
